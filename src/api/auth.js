@@ -1,7 +1,7 @@
 import axios from "axios"
 
 
-const API_URL = `http://localhost:8000/api/users`
+const API_URL = `https://login-reg-backend.onrender.com/api/users`
 
 
 export const register = async(userData)=>{
